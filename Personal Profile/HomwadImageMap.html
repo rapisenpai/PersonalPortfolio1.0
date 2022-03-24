@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homwad - My Image Map</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            color: white;
+        }
+        body{
+           background-color: #101928;
+        }nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: 'Roboto', sans-serif;
+        }.logo{
+            color: white;
+            font-size: 24px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            
+        }
+        span{
+            color: #00ACC1;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding:  5px;
+
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: none;
+            text-transform: capitalize;
+            
+        }
+        nav ul li a:hover{
+            color: #00ACC1;
+            transition: .4s;
+        }
+                
+        a{
+            text-decoration: none;
+        }.worldMapImage{
+            padding-top: 25px;
+            height: 900px;
+            display: flex;
+            justify-content: center;
+        }
+        .content1{
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-top: 25px;
+            text-align: justify;
+        }.text1{
+            padding-top: 25px;
+            font-size: medium;
+            font-family: 'Roboto', sans-serif;
+        }footer{
+            position: relative;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #101928;
+            height: auto;
+            width: 100vw;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            color: #fff;
+        }.footer-content{
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: medium;
+        }
+        h1{
+            font-family: 'Poppins', sans-serif;
+        }
+        p{
+            
+            font-family: 'Roboto', sans-serif;
+        }
+        
+                
+    </style>
+</head>
+<body>
+
+    <!-- This is a Navigatation Section -->
+    <div class="heroSection" >
+        <nav>
+            <a href="#"><h1 class="logo">World <span>Map</span></h1></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Social Media</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+        </nav>
+        <hr style="margin-left: 50px; margin-right: 50px; margin-top: 10px;">
+    </div>
+
+    <div class="worldMapImage" >
+        
+
+
+    </div>
+    
+    <div class="content1" >
+
+        <h1>Political Map of the <span>World</span></h1>
+        <blockquote class="text1"  cite="https://geology.com/world/world-map.shtml#:~:text=The%20map%20above,and%20south%20poles.">
+            The map above is a political map of the world centered on Europe and Africa. It shows the location of most of the world's 
+            countries and includes their names where space allows.
+            Representing a round earth on a flat map requires some distortion of the geographic features no matter how the map is done. 
+            We have used a Mercator projection for this map because it is the projection most commonly used in schools. On this map, 
+            geographic boundaries that trend north-south appear as vertical lines, geographic boundaries that trend east-west appear 
+            as horizontal lines. This type of projection causes a minimum of country-shape distortion near the equator, a small amount 
+            of distortion at mid-latitudes, but extreme distortion near the poles. For that reason, the map does not extend to the north 
+            and south poles.
+        </blockquote>
+    </div>
+
+    <!-- This is footer-->
+    <footer>
+        <hr style="margin-left: 50px; margin-right: 50px; margin-top: 10px;">
+        <div class="footer-content">
+          <p>Personal Profile by Rafhael Lowix A. Homwad</p>
+          <p>Copyright ©2022 All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
